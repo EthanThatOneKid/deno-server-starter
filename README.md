@@ -1,6 +1,9 @@
 # 💻 Deno Server Starter
 > Starter code for running a server on Deno
 
+## 🛠 Usage
+> Run: `deno --allow-net server.ts`
+
 ## 📚 Resources
 * https://deno.land/
 * https://github.com/denoland/deno_install
