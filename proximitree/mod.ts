@@ -43,6 +43,8 @@ export const Proximitree = <D extends number = 2>(
 ): ProximitreeInterface<D> => {
 
   const find = (node, visited = new Set([])) => {
+    // Todo: write an algorithm that finds the first node that is within the proximity of the original node.
+    // If no nodes are within the proximity, choose the closest node.
     const ids = Object.keys(nodes);
     const rndId = ids[Math.floor(Math.random() * ids.length)];
     return nodes[rndId];
